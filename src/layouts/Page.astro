@@ -1,0 +1,49 @@
+---
+const { name, chapter, previouschapter, previouspage, nextchapter, nextpage } = Astro.props;
+import Footer from './../components/Footer.astro'
+import Nextprev from './../components/Nextprev.astro'
+---
+<html lang="en">
+    <head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="robots" content="noindex">
+		<meta name="viewport" content="width=device-width" />
+        <title>{name}</title>
+    </head>
+    <body>
+        <style>
+            .page {
+                display: block;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .number {
+                text-align: center;
+                font-size: large;
+            }
+            .next-prev {
+                justify-content: center;
+            }
+            body {
+                background: url('../../../white-paper.jpg');
+                background-attachment: fixed;
+                background-size: cover;
+                font-family: monospace;
+            }
+        </style>
+        <div class="number">
+            <h1>{chapter}</h1>
+            <h2>{name}</h2>
+        </div>
+        <div class="page">
+            <slot />
+            <br>
+            <div class="next-prev">
+                <Nextprev name="Previous page" chapter={previouschapter} page={previouspage} />
+                <Nextprev name="Next page" chapter={nextchapter} page={nextpage} />
+            </div>
+        </div>
+    </body>
+    <Footer />
+</html>

@@ -1,0 +1,17 @@
+---
+const { chapter, page, name } = Astro.props
+---
+
+<style>
+    a {
+        font-family: monospace;
+        align-items: center;
+        color: white;
+        background-color: #011634;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5%;
+    }
+</style>
+
+<a href={`https://bruke.devlucas.page/chapters/${chapter}/pages/${page}`}>{name}</a>
