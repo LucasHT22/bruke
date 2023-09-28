@@ -1,16 +1,30 @@
 ---
-
+import '../styles/global.css'
+import Footer from './../components/Footer.astro'
 ---
-
-<html lang="en">
+<html lang="pt-BR">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta name="robots" content="noindex">
+		<title>Woof's book</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="title">
+			<h1>Woof woof</h1>
+			<p>by Woof Dog</p>
+		</div>
+		<div class="start-here">
+			<a class="start-btn" href="/chapters/1/pages/1">Start here!</a>
+		</div>
+		<div class="about">
+			<img src="https://cloud-dy3z4v77o-hack-club-bot.vercel.app/0dog1_1.svg" style="border-radius: 360%; width: 30%; max-width: 25%;">
+			<div class="about-text">
+				<h1>About the author</h1>
+				<p>Woof woof woof woof woof woof woof woof woof, woof. Woof woof woof woof woof woof, woof woof woof, woof woof woof woof. Woof, woof woof woof woof woof woof woof woof, woof woof woof woof woof woof woof, woof woof woof, woof woof woof woof.</p>
+			</div>
+		</div>
 	</body>
+	<Footer />
 </html>

@@ -1,0 +1,41 @@
+body, html {
+    background: url('../../white-paper.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: monospace;
+}
+
+.title {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #011634;
+    border-radius: 45px;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+.about-text {
+    margin: 5%;
+    background-color: #011634;
+    border-radius: 45%;
+    color: white;
+}
+
+.start-here {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-btn {
+    border-radius: 45px;
+    color: white;
+    background-color: #011634;
+    padding: 10px;
+}
