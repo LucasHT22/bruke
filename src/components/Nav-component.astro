@@ -1,0 +1,17 @@
+---
+const { chapter, page, name } = Astro.props
+---
+<!--
+    Here there's almost nothing to change :) you can personalize the style
+ -->
+<style>
+    a {
+        background-color: #011634;
+        color: white;
+        padding: 10px;
+    }
+</style>
+
+<a href="https://bruke.devlucas.com/chapters/${chapter}/pages/${page}">
+{name}
+</a>
