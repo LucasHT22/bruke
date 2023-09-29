@@ -1,6 +1,6 @@
 <div align="center">
 <br />
-<a href="https://cloud-5b5ip589w-hack-club-bot.vercel.app/0bruke_-_nice_colors_version_.svg" width="300"></a>
+<img src="https://cloud-5b5ip589w-hack-club-bot.vercel.app/0bruke_-_nice_colors_version_.svg" width="300">
 <br />
 <h1>Bruke</h1>
 <p>Bruke is your friendly Astro book website template!</p>
