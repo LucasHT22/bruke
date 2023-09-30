@@ -2,6 +2,7 @@
 const { name, chapter, previouschapter, previouspage, nextchapter, nextpage } = Astro.props;
 import Footer from './../components/Footer.astro'
 import Nextprev from './../components/Nextprev.astro'
+import Nav from './../components/Nav.astro'
 ---
 <html lang="en">
     <head>
@@ -12,6 +13,7 @@ import Nextprev from './../components/Nextprev.astro'
         <title>{name}</title>
     </head>
     <body>
+        <Nav />
         <style>
             .page {
                 display: block;
