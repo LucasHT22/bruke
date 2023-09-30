@@ -10,8 +10,13 @@ const { chapter, page, name } = Astro.props
         color: white;
         padding: 10px;
     }
+    a:hover {
+        background-color: white;
+        color: #011634;
+        padding: 10px;
+    }
 </style>
 
-<a href="https://bruke.devlucas.com/chapters/${chapter}/pages/${page}">
+<a href={`https://bruke.devlucas.com/chapters/${chapter}/pages/${page}`}>
 {name}
 </a>
