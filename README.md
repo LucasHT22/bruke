@@ -23,8 +23,12 @@ Basically just click on "Use this template" and you are ready. The important fil
 
 You need [Yarn](https://yarnpkg.com/) installed, you can run the command above:
 
-```yarn install```
+```
+yarn install
+```
 
 To run a preview, run the command above:
 
-```yarn dev```
+```
+yarn dev
+```
