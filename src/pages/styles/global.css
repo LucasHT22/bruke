@@ -1,8 +1,9 @@
 body, html {
-    background: url('../../white-paper.jpg');
+    background-color: #1F3D3D;
     background-attachment: fixed;
     background-size: cover;
     font-family: monospace;
+    color: #8FFFFF;
 }
 
 .title {
@@ -14,17 +15,18 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #011634;
+    background-color: #1F3D3D;
     border-radius: 45px;
     margin: 30px;
     padding: 10px 10px;
+    color: #8FFFFF;
 }
 
 .about-text {
     margin: 5%;
-    background-color: #011634;
+    background-color: #1F3D3D;
     border-radius: 45%;
-    color: white;
+    color: #8FFFFF;
 }
 
 .start-here {
@@ -35,7 +37,7 @@ body, html {
 
 .start-btn {
     border-radius: 45px;
-    color: white;
-    background-color: #011634;
+    color: #8FFFFF;
+    background-color: #1F3D3D;
     padding: 10px;
 }
