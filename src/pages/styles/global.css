@@ -1,9 +1,9 @@
 body, html {
-    background-color: #1F3D3D;
+    background-color: #8FFFFF;
     background-attachment: fixed;
     background-size: cover;
     font-family: monospace;
-    color: #8FFFFF;
+    color: #1F3D3D;
 }
 
 .title {
@@ -15,18 +15,18 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F3D3D;
+    background-color: #8FFFFF;
     border-radius: 45px;
     margin: 30px;
     padding: 10px 10px;
-    color: #8FFFFF;
+    color: #1F3D3D;
 }
 
 .about-text {
     margin: 5%;
-    background-color: #1F3D3D;
+    background-color: #8FFFFF;
     border-radius: 45%;
-    color: #8FFFFF;
+    color: #1F3D3D;
 }
 
 .start-here {
@@ -37,7 +37,7 @@ body, html {
 
 .start-btn {
     border-radius: 45px;
-    color: #8FFFFF;
-    background-color: #1F3D3D;
+    color: #1F3D3D;
+    background-color: #8FFFFF;
     padding: 10px;
 }
